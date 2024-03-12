@@ -17,7 +17,7 @@ redirect_from:
 <img src="../images/AboutMePic1.jpeg" width="725" height="538"/>
 
 ## Who Am I?
-I'm passionate about Control Engineering and STEM Education. Whether it's robotics contributing to numerous open-source control libraries, mentoring robotics competition teams from around the world, or volunteering for various robotics competitions, I thrive on making a difference in the world of technology and education.
+I'm passionate about Control Engineering and STEM Education. Whether it's contributing to numerous open-source control libraries, mentoring robotics competition teams from around the world, or volunteering for various robotics competitions, I thrive on making a difference in the world of technology and education.
 
 ## My Journey
 ### Robotics:
