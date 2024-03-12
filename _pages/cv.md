@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "My Resume"
+permalink: /resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -9,11 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+<style>
+.pdfobject-container { width: 800; height: 1000px; border: 1px solid #ccc; }
+</style>
+<div id="my-pdf"></div>
+<script src="https://unpkg.com/pdfobject"></script>
+<script>PDFObject.embed("../images/RockyResume.pdf", "#my-pdf");</script>
+<br>
+
+<!-- Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Kang Chiao International School High School Deploma
+* Purdue University Robotics Engineering Technology, Minor in CS
+* Purdue University Certificate in certificate in Entrepreneurship and Innovation
 
 Work experience
 ======
@@ -31,7 +39,7 @@ Work experience
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
-  
+
 Skills
 ======
 * Skill 1
@@ -46,19 +54,21 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+ -->
+
