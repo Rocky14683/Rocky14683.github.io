@@ -14,7 +14,7 @@ redirect_from:
 </style>
 <div id="my-pdf"></div>
 <script src="https://unpkg.com/pdfobject"></script>
-<script>PDFObject.embed("../images/RockyResume.pdf", "#my-pdf");</script>
+<script>PDFObject.embed("../images/Rocky_Resume.pdf", "#my-pdf");</script>
 <br>
 
 <!-- Education
