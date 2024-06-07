@@ -14,7 +14,7 @@ redirect_from:
 </style>
 <div id="my-pdf"></div>
 <script src="https://unpkg.com/pdfobject"></script>
-<script>PDFObject.embed("../images/Yu_Shing_Chen_Resume.pdf", "#my-pdf");</script>
+<script>PDFObject.embed("../images/Yu_Shing_Chen_Resume_6:7_US_phone.pdf", "#my-pdf");</script>
 <br>
 
 <!-- Education
